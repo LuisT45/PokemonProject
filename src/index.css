@@ -1,0 +1,24 @@
+:root {
+  background-color: #FFFFFF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.all-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cards-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 10px;
+}
